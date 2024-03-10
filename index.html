@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.cdnfonts.com/css/led-digital-7" rel="stylesheet">
+                
+  <title>MY PAGE</title>
+  <style>
+    @import url('https://fonts.cdnfonts.com/css/led-digital-7');
+</style>
+
+</head>
+<body>
+  <div class="scoreboard">
+    <div class="team">
+      <h2>HOME</h2>
+      <div class="score" id="home-score">0</div>
+      <div class="buttons">
+        <button class="btn" onclick="add('home',1)">+1</button>
+        <button class="btn" onclick="add('home',2)">+2</button>
+        <button class="btn" onclick="add('home',3)">+3</button>
+      </div>
+    </div>
+    <div class="team">
+      <h2>GUEST</h2>
+      <div class="score" id="away-score">0</div>
+      <div class="buttons">
+        <button class="btn" onclick="add('away',1)">+1</button>
+        <button class="btn" onclick="add('away',2)">+2</button>
+        <button class="btn" onclick="add('away',3)">+3</button>
+      </div>
+    </div>
+  </div>
+  <script src="code.js"></script>
+</body>
+</html>
